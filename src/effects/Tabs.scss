@@ -1,0 +1,71 @@
+
+// Best Seller Taobao widget
+
+// Widget Tabs
+.BS_Widgets_Tabs {
+    display: flex;
+    flex-wrap: wrap;
+    & > .section {
+        // width: 500px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    //
+}
+.BS_Tabs_style_1, .BS_Tabs_style_2, .BS_Tabs_style_3, .BS_Tabs_style_4 {
+    width: 500px;
+    position: relative;
+    .ks-switchable-nav {
+        li {
+            display: inline-block;
+            padding: 5px 8.9px;
+            border:2px solid;
+            box-sizing: border-box;
+        }
+    }
+    .ks-switchable-content {
+        img {
+            width: 500px;
+            height: 300px;
+        }
+    }
+}
+// style 3
+.BS_Tabs_style_3 {
+    overflow: hidden;
+    height: 250px;
+    padding-right: 0;
+    width: 500px;
+    .ks-switchable-content {
+        height: 200px;
+        // position: absolute;
+    }
+}
+// style 4
+.BS_Tabs_style_4 {
+    overflow: hidden;
+    height: 250px;
+    padding-right: 0;
+    padding-top: 0;
+    margin-top: 15px;
+    width: 500px;
+    // box-sizing: border-box;
+    .ks-switchable-content {
+        height: 200px;
+        // padding-top: 50px;
+        // position: absolute;
+        // width: 500px;
+    }
+    .ks-switchable-nav {
+        position: absolute;
+        top: 18px;
+    }
+    & > div:first-child {
+        position: absolute;
+        width: 100%;
+        color: blue;
+        height: 50px;
+        background-color: #fff;
+        z-index: 9999;
+    }
+}
